@@ -1,0 +1,155 @@
+@charset "utf-8";
+/* CSS Document */
+.center_area{
+	width:100%;
+	/*height:500px; */
+	margin:0 auto;
+}
+
+
+/*中间区域*/
+.center_area .center{
+	width:100%;
+	/*height:500px;*/
+	background:#ccc;
+	float: left;
+}
+.common_da{ 
+	/*width: 800px; height: 100px;*/
+	}
+
+/*<==================================================>*/
+
+/*中间轮播图区域*/
+ 
+.content_middle{
+	/*height:440px;*/
+    margin:0px auto;
+    position:relative;
+}
+.content_middle:hover .common{
+	display: block;
+}
+/*左右切换图标*/
+.content_middle .common{
+	display: block;
+	width:50px;
+	height: 100px;
+	position: absolute;
+	z-index: 25;
+    top:50%;
+    margin-top: -50px;
+    display: none;
+}
+.content_middle .btnLeft{
+	opacity: 0.5;
+	left:0px;
+	background: url(../images/sprite.png) no-repeat;
+}
+.content_middle .btnRight{
+	opacity: 0.5;
+	right:0px; 
+	background: url(../images/sprite.png) no-repeat -60px 0;
+}
+/*左右切换图标*/
+.content_middle ul li{
+	width:100%;
+	/*height:400px; */
+	opacity: 0;
+	filter: alpha(opacity=0);
+	position: absolute;
+	margin:0px auto;
+}
+
+/*切换小图标*/
+
+.content_middle .table{
+	width:110px; 
+	height:5px;
+	position: absolute;
+	bottom:10px;
+	left:50%;
+	z-index:9;
+	margin-left:-55px;  
+	line-height: 5px; 
+}
+.content_middle .table a{
+    width:15px;
+    height:5px;  
+    background:#E3DEE1;
+    opacity: 0.8;
+    text-align:center;
+    line-height: 33px;
+    margin-left:3px; 
+    display: block;
+    float:left;  
+}
+
+.content_middle .table a.small_active{
+	background:#FF8800;
+	color: #fff;
+	 
+} 
+
+
+.banner-top {
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.banner .swiper-container .swiper-wrapper .banner-top {
+    position: absolute;
+    top: 50%;
+    margin-top: -113px;
+    left: 50%;
+    margin-left: -350px;
+}
+.banner-top .loading2 {
+    text-align: center;
+    height: 1px;
+    width: 100%;
+    background-color: #979797;
+    margin-top: 27px;
+    overflow: hidden;
+}
+.banner-top .loading2 div {
+    height: 1px;
+    background: #fff;
+    -webkit-transform-origin: left;
+    transform-origin: left;
+}
+.banner-top p:first-child {
+    font-size: 30px;
+    font-weight: 900;
+    letter-spacing: 2px;
+}
+.banner-top p:nth-child(3) {
+    margin: 30px 0 40px;
+}
+.banner-top p:nth-child(3) {
+    font-size: 53px;
+    font-weight: 700;
+}
+.banner-top p:nth-child(4) {
+    font-size: 40px;
+    font-weight: 600;
+}
+.banner-top p {
+    text-align: center;
+    width: 100%;
+    color: #fff;
+    font-family: microsoft yahei;
+}
+.banner-top .more a {
+    display: block;
+    width: 165px;
+    height: 45px;
+    line-height: 45px;
+    font-size: 21px;
+    background-color: #0575f0;
+    text-align: center;
+    margin: 35px auto;
+    color: #fff;
+    text-decoration: none;
+    font-family: microsoft yahei;
+}
